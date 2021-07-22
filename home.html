@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+ <html lang="en-Us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jacqueline Mongas">
+    <meta name="description" content="Home Page">
+    <title>home</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <header>
+      <div id="logo">
+        <img src="images/logo.png" alt="Chamber logo">
+      </div>    
+  </header>
+
+  
+    <nav class="navigation">
+      <nav class="clearfix">
+      <ul >
+        <li><a class="ham" href="#">&#9776; Menu</a></li>
+        <li class="active"><a href="home.html">Home</a></li>
+        <li><a href="mormant.html">Mormant</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </nav>
+
+    <main>
+      <div class="hero-section">
+      <div class="action">
+        
+        <input
+          class="join"
+          type="button"
+          onclick="location.href='join.html'"
+          value="Join Now"
+        />
+      </div>
+
+                <section class="weather">
+                  <h3>Current Weather</h3>
+                  <div class="col1">
+                    <div>Currently: <span id="currently"></span>°</div>
+                    <div>Humidity: <span id="humidity"></span>%</div>
+                    <div>Current Conditions: <span id="conditions"></span></div>
+                  </div>
+                </section>
+          
+                
+                <h3 class="forecast">3 Day Forecast</h3>
+                <div class="forecastdiv">
+                <div class="flex">
+                  <div class="flex-col">
+                    <h3 class="col-head"><span id="forecast1"></span></h3>
+                    <img id="forecast1image" src="#" alt="weathericon" />
+                    <p class="data"><span id="forecastTemp1"></span>&deg;F</p>
+                  </div>
+                  <div class="flex-col">
+                    <h3 class="col-head"><span id="forecast2"></span></h3>
+                    <img id="forecast2image" src="#" alt="weathericon" />
+                    <p class="data"><span id="forecastTemp2"></span>&deg;F</p>
+                  </div>
+                  <div class="flex-col">
+                    <h3 class="col-head"><span id="forecast3"></span></h3>
+                    <span id="imagesrc"></span> &nbsp;
+                    <img id="forecast3image" src="#" alt="weathericon" />
+                    <p class="data"><span id="forecastTemp3"></span>&deg;F</p>
+                  </div>
+                </div>    
+                </div>
+              </div>
+                        <ul class="list">
+                          <li class="list-item">
+                            <div class="list-content">
+                              <h2>who Are We?</h2>
+                              
+                              <p>Chamber of commerce is a broad term referring to a business network. 
+                                This network is made of individuals who invest their time and money into the organization,
+                                 generally with the goal of advancing their community’s economic well-being. Often,
+                                  a chamber of commerce is made up of local business owners and entrepreneurs who advocate for local business..</p>
+                              <a href="join.html">Join Us</a>
+                            </div>
+                          </li>
+                          
+                           <li class="list-item">
+                            <div class="list-content">
+                              <h2>Nature O Delices</h2>
+                              <img src="images/natureodelice1.png" alt="" />
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, vel, quia. Non nostrum, consectetur ipsum doloribus enim maiores a laudantium, odio vel blanditiis id ea dolorum expedita fugit incidunt commodi.</p>
+                              <a href="https://nature-o-delices.business.site/#details">Link</a>
+                              </div>
+                           </li>
+
+                              <li class="list-item">
+                                <div class="list-content">
+                                  <h2>Le Galerie Marchande</h2>
+                              <img src="images/galerie-marchande.jpg" alt="" />
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, vel, quia. Non nostrum, consectetur ipsum doloribus enim maiores a laudantium, odio vel blanditiis id ea dolorum expedita fugit incidunt commodi.</p>
+                              <a href="#"></a>
+                              </div>
+                              </li>
+
+                              <li class="list-item">
+                                <div class="list-content">
+                                  <h2>La Droguerie</h2>
+                              <img src="images/droguerie1.jpg" alt="" />
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, vel, quia. Non nostrum, consectetur ipsum doloribus enim maiores a laudantium, odio vel blanditiis id ea dolorum expedita fugit incidunt commodi.</p>
+                              <a href="#"></a>
+                            </div>
+                          </li>
+                        </ul>
+      </main>
+    <footer>
+      <footer>
+        <div class="contact">
+          <div class="address">
+            <h4>Contact Information</h4>
+            ✉  Mormant Chamber of Commerce<br />
+                11 Rue de l'Invention<br />
+                Mormant, 77720 FR<br />
+
+            ☎ +33 999 999-9999
+          </div>
+          <div class="social">
+            <div class="facebook">
+              <a href="https://www.facebook.com/" target="_blank">
+              <img src="images/facebook.png"  alt="facebook" /></a>
+            </div>
+
+            <div class="instagram">
+               <a href="https://www.instagram.com/" target="_blank">
+                <img  src="images/instagram.png" alt="Instagram"/></a>
+            </div>
+            
+            <div class="twitter">
+              <a href="https://www.twitter.com/" target="_blank">
+               <img  src="images/twitter.png" alt="Instagram"/></a>
+           </div>
+          </div>
+        </div>
+        <p class="footerp">
+          &#169; 2021 | Jacqueline Mongas | Current Date:
+          <span id="currentDate"></span>
+        </p>
+      </footer>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/currentdate.js"></script>
+  
+
+</body>
+</html>
